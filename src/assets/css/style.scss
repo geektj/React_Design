@@ -1,0 +1,25 @@
+@import './Colour.scss';
+
+// .main{
+//     width: 100%;
+    
+// }
+
+
+.container-box{
+    height: 90vh;
+    margin-top: 80px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+
+// common css
+.text-box-font{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}

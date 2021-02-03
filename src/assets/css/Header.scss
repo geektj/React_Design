@@ -1,0 +1,96 @@
+@import './Colour.scss';
+
+.container{
+    width: 100%;
+    background-color: $bgcolor-white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px -2px 24px rgba(0, 0, 0, 0.15);
+    // height: 10vh;
+    height: 80px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    .margin-box{
+        width: 85%;
+        margin: auto;
+        .nav-bar{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .left-side{
+                width: 60%;
+                display: flex;
+                .brand-logo{
+                    a{
+                        img{
+                            
+                        }
+                    }
+                }
+                .items{
+                    list-style: none;
+                    display: flex;
+                    margin: 0px;
+                    align-items: center;
+                    padding-left: 10px;
+                    a{
+                        cursor: pointer;
+                        .list-item{
+                            margin: 0px 20px;
+                            color: $color-black;
+                            font-weight: 600;
+                            font-style: normal;
+                            span{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            
+            }
+            .right-side{
+                width: 40%;
+                display: flex;
+                justify-content: flex-end;
+                /* padding-left: 25%; */
+                // margin-left: auto;
+                align-items: center;
+                .search{
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
+                .cart-bag{
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
+                .sign-in{
+                    margin-right: 30px;
+                    cursor: pointer;
+                    a{
+                        color: $color-blue;
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+                .create-acc{
+                    background: $bgcolor-blue;
+                    width: 134px; 
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 40px;
+                    // padding: 0px 12px;
+                    cursor: pointer;
+                    a{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+}
